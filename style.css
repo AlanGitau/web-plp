@@ -1,0 +1,59 @@
+.name{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    text-align: center;
+    background-color: #EFBC9B;
+    padding: 20px;
+
+}
+
+.intro{
+    background-color: #FBF3D5;
+    padding: 20px;
+    margin: 15px;
+}
+
+li{
+    margin:10px;
+}
+
+
+
+.skills{
+    background-color: #D6DAC8;
+    padding: 20px;
+    margin: 15px;
+}
+li{
+    padding:5px;
+}
+#contact{
+    background-color: #9CAFAA;
+    padding: 40px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 24px; /* Adjust font size for small screens */
+        padding: 10px; /* Adjust padding for small screens */
+    }
+    
+    .intro {
+        margin: 10px; /* Adjust margin for small screens */
+    }
+    
+    li {
+        margin: 5px; /* Adjust margin for small screens */
+    }
+    
+    .skills {
+        padding: 15px; /* Adjust padding for small screens */
+        margin: 10px; /* Adjust margin for small screens */
+    }
+    
+    #contact {
+        padding: 30px; /* Adjust padding for small screens */
+    }
+}
